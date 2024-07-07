@@ -1,0 +1,75 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, figure, figcaption, blockquote, dl, dd {
+    margin: 0;
+    padding: 0;
+}
+
+/* Container styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Borrowers List styles */
+.borrowers-list {
+    margin-bottom: 20px;
+}
+
+.borrowers-list h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.borrowers-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.borrowers-list th, .borrowers-list td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+.borrowers-list th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.borrowers-list tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.borrowers-list tbody tr:hover {
+    background-color: #e0e0e0;
+}
+
+.borrowers-list .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.borrowers-list .btn:hover {
+    background-color: #0056b3;
+}
+.btn-delete {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #dc3545;
+    border-radius: 4px;
+}
+
+.btn-delete:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
